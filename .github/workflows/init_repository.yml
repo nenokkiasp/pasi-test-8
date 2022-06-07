@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '6.0.x'
-        working-directory: /tmp/tmpm9qbytil/pasi-test-8/rest_dotnet
+          working-directory: /tmp/tmpm9qbytil/pasi-test-8/rest_dotnet
       - run: dotnet new webapi -minimal -o rest
       
       - name: Remove initialization workflow
